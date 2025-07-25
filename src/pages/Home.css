@@ -1,0 +1,112 @@
+@import url('../styles/variables.css');
+
+.home-container {
+  background-color: var(--background-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: var(--font);
+  color: var(--text-color);
+}
+
+.home-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.home-subtitle {
+  font-size: 18px;
+  opacity: 0.85;
+  margin-bottom: 40px;
+  color: var(--text-color);
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.home-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--button-color);
+  color: white;
+  padding: 14px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.home-btn:hover {
+  background-color: var(--button-hover);
+  transform: scale(1.05);
+}
+
+.icon {
+  margin-right: 8px;
+  font-size: 1.2rem;
+  color: #ffd1dc; /* pastel pink for soft highlight */
+  vertical-align: middle;
+}
+
+
+.home-btn:hover .icon {
+  color: #ffffff; /* Brighten icon on hover for better interactivity */
+}
+
+.footer {
+  margin-top: 60px;
+  font-size: 14px;
+  opacity: 0.6;
+  color: var(--text-color);
+}
+.next-period-text {
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  color: var(--text-color);
+  opacity: 0.85;
+}
+@media screen and (max-width: 480px) {
+  .home-title {
+    font-size: 24px;
+  }
+
+  .home-subtitle {
+    font-size: 14px;
+  }
+
+  .home-btn {
+    font-size: 14px;
+    padding: 12px 20px;
+    width: 90%;
+  }
+
+  .icon {
+    font-size: 1rem;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}

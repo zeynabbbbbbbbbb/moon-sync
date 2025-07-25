@@ -1,0 +1,48 @@
+@import url('../styles/variables.css');
+
+.care-container {
+  background-color: #fef3f7;
+  min-height: 85vh;
+  padding: 2rem;
+  font-family: var(--font);
+  color: #5c1a2b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.care-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #b02e51;
+}
+
+.care-intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #803246;
+  text-align: center;
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+.tip-card {
+  background: linear-gradient(135deg, #fbd6e3, #ffe2ec);
+  padding: 1.2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-size: 0.95rem;
+  color: #6e1f34;
+  transition: transform 0.3s ease;
+}
+
+.tip-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}

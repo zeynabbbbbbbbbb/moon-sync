@@ -1,0 +1,41 @@
+.tracker-page {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fff0f5;
+  min-height: 100vh;
+}
+
+.tracker-heading {
+  font-size: 28px;
+  color: #e91e63;
+  margin-bottom: 30px;
+}
+
+.tracker-circle {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f8bbd0, #f48fb1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.tracker-label {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tracker-info {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #555;
+}
+
+.tracker-info p {
+  margin: 10px 0;
+}

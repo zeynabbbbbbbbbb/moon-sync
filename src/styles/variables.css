@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #7b2d26; /* deep cherry/maroon */
+  --secondary-color: #a94442; /* rose brownish pink */
+  --background-color: #2c1a1a; /* dark warm background */
+  --text-color: #fefefe;
+  --button-color: #a94442;
+  --button-hover: #7b2d26;
+  --accent-color: #d83261; /* bright magenta for contrast */
+  --dark-bg: #2a1f24;
+  --font: 'Quicksand', sans-serif;
+}
